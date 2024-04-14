@@ -83,7 +83,6 @@ function getMemberId(email) {
 
 function memberMenu(rl, callback, email, memberId) {
     console.log("\n--- Member Menu ---");
-    console.log("Welcome back, ", email, memberId);
     console.log("1: View Dashboard");
     console.log("2: Manage Profile");
     console.log("3: Schedule");
