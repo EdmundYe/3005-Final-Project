@@ -6,7 +6,7 @@ ER DIAGRAM:
 
 ER SCHEMA:
 
-![Schema](https://github.com/EdmundYe/3005-Final-Project/assets/144640029/2979cb12-eea7-4eb0-8811-52ad31ab2761)
+![Schema2](https://github.com/EdmundYe/3005-Final-Project/assets/144640029/dc874e51-74bd-4456-9776-4bba6843ad25)
 
 Video Link:
 
