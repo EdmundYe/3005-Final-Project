@@ -24,7 +24,7 @@ CREATE TABLE Trainer (
 
 -- Room Table
 CREATE TABLE Room (
-    Room_ID SERIAL PRIMARY KEY
+    Room_ID INTEGER PRIMARY KEY
 );
 
 -- Equipment Table
@@ -57,8 +57,10 @@ CREATE TABLE Schedule (
     End_Time TIME NOT NULL,
     Date DATE NOT NULL,
     Trainer_Name VARCHAR REFERENCES Trainer(Name),
-    Exercise_Name VARCHAR(255) REFERENCES Exercises(Name),
+    Name VARCHAR(255) REFERENCES Exercises(Name),
     Room INTEGER REFERENCES Room(Room_ID),
+    Member_ID INTEGER REFERENCES Member(Member_ID)
+
 );
 
 -- Profile Table
@@ -76,5 +78,3 @@ CREATE TABLE Admin (
     Name VARCHAR(255) NOT NULL,
     Email VARCHAR(255) NOT NULL
 );
-
-
