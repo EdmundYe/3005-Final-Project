@@ -49,12 +49,12 @@ VALUES (1,'10:00:00', '11:00:00', '2024-04-18', 'Back Flips', 'Boss McBossMan', 
        (4,'10:00:00', '11:00:00', '2024-04-18', 'Bouncing', 'Nathaniel Liao-Park', 'Rope', 4),
        (5,'10:00:00', '11:00:00', '2024-04-18', 'Running', 'Nik Nemec', 'Kettle Bells', 5);
 
-INSERT INTO Schedule(Start_Time, End_Time, Date, Trainer_Name, Name, Room, Member_ID) 
-VALUES ('10:00:00', '11:00:00', '2024-04-18', 'Boss McBossMan', 'Back Flips', 1, 1),
-       ('10:00:00', '11:00:00', '2024-04-19', 'Toronto Mans', 'Jump Rope', 2, 2),
-       ('10:00:00', '11:00:00', '2024-04-20', 'Alex Vo', 'The TouTou', 3, 3),
-       ('10:00:00', '11:00:00', '2024-04-21', 'Nathaniel Liao-Park', 'Bouncing', 4, 4),
-       ('10:00:00', '11:00:00', '2024-04-22', 'Nik Nemec', 'Running', 5, 5);
+INSERT INTO Schedule(Start_Time, End_Time, Date, Trainer_Name, Name, Room) 
+VALUES ('10:00:00', '11:00:00', '2024-04-18', 'Boss McBossMan', 'Back Flips', 1),
+       ('10:00:00', '11:00:00', '2024-04-19', 'Toronto Mans', 'Jump Rope', 2),
+       ('10:00:00', '11:00:00', '2024-04-20', 'Alex Vo', 'The TouTou', 3),
+       ('10:00:00', '11:00:00', '2024-04-21', 'Nathaniel Liao-Park', 'Bouncing', 4),
+       ('10:00:00', '11:00:00', '2024-04-22', 'Nik Nemec', 'Running', 5);
 
 INSERT INTO Profile(Weight, Height, Gender, Age, Goal_Weight, Member_ID) 
 VALUES (92, 150, 'Female', 20, NULL, 1),
