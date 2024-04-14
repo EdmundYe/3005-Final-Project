@@ -57,7 +57,7 @@ CREATE TABLE Schedule (
     End_Time TIME NOT NULL,
     Date DATE NOT NULL,
     Trainer_Name VARCHAR REFERENCES Trainer(Name),
-    Name VARCHAR(255) REFERENCES Exercises(Name),
+    Exersize_Name VARCHAR(255) REFERENCES Exercises(Name),
     Room INTEGER REFERENCES Room(Room_ID),
 );
 
