@@ -49,7 +49,7 @@ VALUES (1,'10:00:00', '11:00:00', '2024-04-18', 'Back Flips', 'Boss McBossMan', 
        (4,'10:00:00', '11:00:00', '2024-04-18', 'Bouncing', 'Nathaniel Liao-Park', 'Rope', 4),
        (5,'10:00:00', '11:00:00', '2024-04-18', 'Running', 'Nik Nemec', 'Kettle Bells', 5);
 
-INSERT INTO Schedule(Start_Time, End_Time, Date, Trainer_Name, Name, Room) 
+INSERT INTO Schedule(Start_Time, End_Time, Date, Trainer_Name, Exersize_Name, Room) 
 VALUES ('10:00:00', '11:00:00', '2024-04-18', 'Boss McBossMan', 'Back Flips', 1),
        ('10:00:00', '11:00:00', '2024-04-19', 'Toronto Mans', 'Jump Rope', 2),
        ('10:00:00', '11:00:00', '2024-04-20', 'Alex Vo', 'The TouTou', 3),
